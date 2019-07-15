@@ -1,0 +1,13 @@
+{
+  "name": "faulty",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "truffle": "^5.0.27"
+  },
+  "dependencies": {
+    "ethereumjs-util": "^6.1.0",
+    "openzeppelin-solidity": "^2.3.0"
+  }
+}
