@@ -16,3 +16,6 @@ OpenZeppelin ECDSA contract expects it to be 27 or 28. It removed support of the
 It seems, web3 v1.0 belongs to a different tradition setting `v` to `0`/`1`. In order to demonstrate that, I modified
 vanilla MetaCoin Truffle box, to do `ECDSA.recover` of a signature prepared by web3. Hopefully, I did something wrong.
 If not, this is a case of miscoordination.
+
+---
+Sergey Ukustov <sergey@ukstv.me>
