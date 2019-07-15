@@ -18,4 +18,11 @@ vanilla MetaCoin Truffle box, to do `ECDSA.recover` of a signature prepared by w
 If not, this is a case of miscoordination.
 
 ---
+
+1 hour later. Ok, it is not web3. My mistake was to conflate web3 and whatever manages a private key. For the present case,
+Ganache is <strike>was</strike> to blame: https://github.com/trufflesuite/ganache-core/issues/427.
+The new release is [soon](https://github.com/trufflesuite/ganache-core/issues/451). Looking forward to having this for real.  
+
+---
+
 Sergey Ukustov <sergey@ukstv.me>
